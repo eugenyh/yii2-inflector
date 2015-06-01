@@ -1,6 +1,6 @@
 {
     "name": "eugenyho/yii2-inflector",
-    "description": "Yii 2 user authentication module",
+    "description": "Yii 2 helper for inflect russians names, using yandex API",
     "keywords": ["yii", "yii2", "helpers", "inflect"],
     "type": "yii2-helper",
     "license": "MIT",
