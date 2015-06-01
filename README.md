@@ -18,7 +18,9 @@ $fio_a_dative = Inflector::Inflect($fio, 'dative'); // After inflect: Ивано
 php composer.phar require eugenyho/yii2-inflector "*"
 
 # Usage:
+<pre>
 $NewWord = Inflector::Inflect($OldWord, $Case);
+</pre>
 where $Case can be:
 	'nominative'        //именительный
 	'genitive'          //родительный		
