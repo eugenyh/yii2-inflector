@@ -1,10 +1,10 @@
 # yii2-inflector
-Yii2 helper for inflect russians names, using yandex API
+Yii2 helper for inflect russians names (and words), using yandex API
 
 Require CURL installed.
 Ubuntu (12.10 and up): <b>sudo apt-get install curl libcurl3 libcurl4-openssl-dev php5-curl</b>
 
-Example:
+# Example:
 <pre>
 ...
 use eugenyho\helpers\Inflector;
@@ -14,3 +14,15 @@ $fio_a_dative = Inflector::Inflect($fio, 'dative'); // After inflect: Ивано
 ...
 </pre>
     
+# Installation:
+php composer.phar require eugenyho/yii2-inflector "*"
+
+# Usage:
+$NewWord = Inflector::Inflect($OldWord, $Case);
+where $Case can be:
+	'nominative'        //именительный
+	'genitive'          //родительный		
+	'dative'            //дательный			
+	'accusative'        //винительный				
+	'instrumentative'   //творительный			
+	'prepositional'     //предложный			
