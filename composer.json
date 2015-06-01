@@ -1,5 +1,5 @@
 {
-    "name": "eugenyho/yii2-inflector",
+    "name": "EugenyHo/yii2-inflector",
     "description": "Yii 2 helper for inflect russians names, using yandex API",
     "keywords": ["yii", "yii2", "helpers", "inflect", "eugenyho"],
     "type": "yii2-helper",
@@ -10,10 +10,6 @@
             "email": "eugenyh@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "yiisoft/yii2": "*"
-    },
     "autoload": {
         "psr-4": {
             "eugenyho\\helpers\\": ""
