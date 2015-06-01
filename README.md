@@ -1,5 +1,5 @@
 # yii2-inflector
-Yii2 helper for inflect russians names (and words), using yandex API
+Yii2 helper for inflect russian names (and words), using yandex API
 
 Require CURL installed.
 Ubuntu (12.10 and up): <b>sudo apt-get install curl libcurl3 libcurl4-openssl-dev php5-curl</b>
