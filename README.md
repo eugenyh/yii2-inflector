@@ -22,9 +22,16 @@ php composer.phar require eugenyho/yii2-inflector "*"
 $NewWord = Inflector::Inflect($OldWord, $Case);
 </pre>
 where $Case can be:
+
 	'nominative'        //именительный
-	'genitive'          //родительный		
-	'dative'            //дательный			
-	'accusative'        //винительный				
-	'instrumentative'   //творительный			
-	'prepositional'     //предложный			
+	
+	'genitive'          //родительный
+	
+	'dative'            //дательный
+	
+	'accusative'        //винительный
+	
+	'instrumentative'   //творительный
+	
+	'prepositional'     //предложный
+	
